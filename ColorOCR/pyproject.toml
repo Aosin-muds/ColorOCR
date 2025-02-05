@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ColorOCR"
+version = "0.1.0"
+description = "A color-based OCR library using EasyOCR"
+readme = "README.md"
+authors = [
+    { name = "Aosin_MUDS" }
+]
+requires-python = ">=3.6"
+dependencies = [
+    "easyocr",
+    "opencv-python-headless",
+    "numpy",
+    "matplotlib"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
